@@ -1,0 +1,12 @@
+{
+  "name": "arcade",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "repository": "https://github.com/cursorsdottsx/arcade.git",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@aeroware/aeroclient": "^3.6.2",
+    "dotenv": "^10.0.0"
+  }
+}

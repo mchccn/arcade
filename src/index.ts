@@ -7,4 +7,11 @@ const client = new AeroClient({
     prefix: "!",
     useDefaults: true,
     logging: true,
+    dev: {
+        eval: {
+            console: true
+        }
+    }
 });
+
+client.loadCommands("./commands")
