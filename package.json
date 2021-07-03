@@ -1,12 +1,24 @@
 {
-  "name": "arcade",
-  "version": "1.0.0",
-  "main": "index.js",
-  "private": true,
-  "author": "Dheeraj Prakash <dheerajpv16@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "@aeroware/aeroclient": "^3.6.2",
-    "dotenv": "^10.0.0"
-  }
+    "name": "arcade",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "private": true,
+    "author": "Dheeraj Prakash <dheerajpv16@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "dev": "nodemon src/index.ts",
+        "start": "yarn build && node .",
+        "build": "tsc",
+        "lint": "yarn eslint --ext .ts"
+    },
+    "dependencies": {
+        "@aeroware/aeroclient": "^3.6.2",
+        "dotenv": "^10.0.0"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.28.1",
+        "@typescript-eslint/parser": "^4.28.1",
+        "eslint": "^7.30.0",
+        "typescript": "^4.3.5"
+    }
 }
