@@ -11,6 +11,7 @@
     },
     "dependencies": {
         "@aeroware/aeroclient": "^3.6.2",
+        "canvas": "^2.8.0",
         "dotenv": "^10.0.0"
     },
     "devDependencies": {

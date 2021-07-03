@@ -1,7 +1,7 @@
 import AeroClient from "@aeroware/aeroclient";
 import "dotenv/config";
 
-const client = new AeroClient({
+new AeroClient({
     token: process.env.TOKEN,
     prefix: "/",
     logging: true,
