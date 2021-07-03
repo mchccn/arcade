@@ -2,9 +2,11 @@
   "name": "arcade",
   "version": "1.0.0",
   "main": "index.js",
+  "private": true,
   "author": "Dheeraj Prakash <dheerajpv16@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@aeroware/aeroclient": "^3.6.2"
+    "@aeroware/aeroclient": "^3.6.2",
+    "dotenv": "^10.0.0"
   }
 }
