@@ -1,0 +1,10 @@
+{
+  "name": "arcade",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dheeraj Prakash <dheerajpv16@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@aeroware/aeroclient": "^3.6.2"
+  }
+}
