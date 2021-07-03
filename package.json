@@ -1,9 +1,7 @@
 {
     "name": "arcade",
     "version": "1.0.0",
-    "main": "dist/index.js",
     "private": true,
-    "author": "Dheeraj Prakash <dheerajpv16@gmail.com>",
     "license": "MIT",
     "scripts": {
         "dev": "nodemon src/index.ts",
